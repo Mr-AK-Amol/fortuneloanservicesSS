@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact Us | Fortune Loan Services</title><meta name="description" content="Contact Fortune Loan Services for professional loan advisory, structured lending and EMI restructuring support.">
+<link rel="icon" href="assets/fortune-logo.png"><link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+</head><body><div class="progress-bar" id="progressBar"></div>
+<header class="site-header scrolled" id="header">
+ <div class="container navbar">
+  <a class="brand" href="index.html"><img src="assets/fortune-logo.png" alt="Fortune Loan Services"></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  <nav class="nav-links" id="navLinks">
+   <a href="index.html">Home</a><a href="about-us.html">About</a><a href="index.html#loans">Loan Solutions</a><a href="index.html#partners">Partners</a>
+   <a href="emi-calculator.html">EMI Calculator</a><a href="join-us.html">Join Us</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Apply Now</a>
+  </nav>
+ </div>
+</header>
+<main><section class="page-hero"><div class="container"><span class="section-kicker">FORTUNE LOAN SERVICES</span><h1>Get in Touch</h1><p>Contact Fortune Loan Services for professional loan advisory, structured lending and EMI restructuring support.</p></div></section><section class="content-section"><div class="container contact-grid">
+<div class="content-card"><span class="section-kicker">GET IN TOUCH</span><h2>Talk to a Financial Expert</h2>
+<div class="contact-item"><b>Call</b><a href="tel:+919028346900">+91 9028346900</a></div>
+<div class="contact-item"><b>Email</b><a href="mailto:business@fortuneloan.services">business@fortuneloan.services</a></div>
+<div class="contact-item"><b>Corporate & Head Office</b>Incuspaze 3rd Floor, 1965, Gorwa, Alembic City, Alembic Road, Vadodara – 390003 Gujarat, India</div>
+<div class="contact-item"><b>Founder & Director</b>Aamin Khan</div>
+<div class="notice-box">Loan approval depends on lender policy and applicant profile strength. Fortune Loan Services provides assistance and guidance only.</div>
+</div>
+<div class="form-card"><h2>Send Us a Message</h2><p style="color:#6d7b90;font-size:12px;margin:8px 0 20px">Fill in your details and the form will open WhatsApp with your enquiry.</p>
+<form id="contactForm"><div class="form-grid">
+<div class="form-field"><label>First Name *</label><input required id="cfFirst" placeholder="John"></div>
+<div class="form-field"><label>Last Name *</label><input required id="cfLast" placeholder="Doe"></div>
+<div class="form-field"><label>Email *</label><input required type="email" id="cfEmail" placeholder="you@example.com"></div>
+<div class="form-field"><label>Mobile Number *</label><input required id="cfMobile" inputmode="numeric" placeholder="0000000000"></div>
+<div class="form-field full"><label>Subject *</label><input required id="cfSubject" placeholder="How can we help you?"></div>
+<div class="form-field full"><label>Message *</label><textarea required id="cfMessage" placeholder="Tell us about your requirement"></textarea></div>
+<div class="form-field full"><button class="btn btn-primary" type="submit">Send Enquiry ↗</button></div>
+</div></form></div></div></section></main><footer style="background:#061a3d;color:#fff;padding:45px 0">
+ <div class="container center">
+  <img src="assets/fortune-logo.png" alt="Fortune Loan Services" style="width:180px;max-width:60%;margin-bottom:18px">
+  <p style="color:#9fb0ca;font-size:12px;line-height:1.8">Fortune Loan Services acts as a financial advisory and loan facilitation firm. We do not provide loans directly. Final sanction, rates, terms and disbursement are determined by the respective Bank/NBFC.</p>
+  <div class="footer-links">
+   <a href="index.html">Home</a><a href="about-us.html">About</a><a href="contact.html">Contact</a><a href="join-us.html">Join Us</a><a href="emi-calculator.html">EMI Calculator</a><a href="terms-of-services.html">Terms</a>
+  </div>
+  <p style="color:#7187a6;font-size:11px;margin-top:20px">+91 9028346900 · business@fortuneloan.services · Incuspaze 3rd Floor, 1965, Gorwa, Alembic City, Alembic Road, Vadodara – 390003 Gujarat, India</p>
+  <p style="color:#7187a6;font-size:10px;margin-top:15px">© <span id="year"></span> Fortune Loan Services. All Rights Reserved.</p>
+ </div>
+</footer><script src="script.js"></script><script>document.getElementById("contactForm").addEventListener("submit",function(e){e.preventDefault();const m=`*FORTUNE LOAN SERVICES - CONTACT ENQUIRY*\n\nName: ${cfFirst.value} ${cfLast.value}\nEmail: ${cfEmail.value}\nMobile: ${cfMobile.value}\nSubject: ${cfSubject.value}\nMessage: ${cfMessage.value}`;window.open("https://wa.me/919028346900?text="+encodeURIComponent(m),"_blank","noopener,noreferrer")})</script></body></html>
